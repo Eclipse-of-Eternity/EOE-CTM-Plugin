@@ -1,0 +1,19 @@
+name: EOE
+version: '1.2'
+main: ctm.mc.eoe.EOEPlugin
+api-version: '1.20'
+prefix: EOE
+authors: ["IDK"]
+description: Plugin for eoe ctm.
+commands:
+  eoe:
+    description: Run eoe commands.
+    usage: /eoe
+    permission: eoe.permission.all
+    permission-message: Cannot run this command.
+permissions:
+  eoe.permission.all:
+    description: Run all commands.
+    default: op
+
+folia-supported: true
